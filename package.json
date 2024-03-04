@@ -1,0 +1,18 @@
+{
+  "name": "finnish-passport-image",
+  "version": "1.0.0",
+  "description": "Cropper tool for Finnish Passport images",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Toni Hintikka",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

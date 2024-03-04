@@ -1,0 +1,78 @@
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional: dotenv environment variables file
+.env
+
+# Optional nyc test coverage
+coverage
+
+# Optional: IDE/Editor directories
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Optional: macOS generated files
+.DS_Store
+
+# Optional: Windows generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Optional: yarn
+yarn-error.log
+yarn.lock
+.pnp/
+.pnp.js
+
+# Optional: logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional: Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Optional: Bower component directory (https://bower.io/)
+bower_components
+
+# Optional: Jekyll Metadata file for Jekyll sites
+.jekyll-metadata
+
+# Optional: parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Optional: Next.js build output
+.next
+out/
+
+# Optional: Nuxt.js build / generate output
+.nuxt
+dist/
+
+# Optional: Gatsby files
+.cache/
+# Comment in the public line in if your project uses Gatsby and *not* Next.js
+# public
+
+# Optional: vuepress build output
+.vuepress/dist
+
+# Optional: Serverless directories
+.serverless/
+
+# Optional: Firebase hosting cache
+.firebase/

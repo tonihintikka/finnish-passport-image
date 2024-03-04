@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <title>Finnish Passport Photo Image Cropper</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.12/cropper.min.css" />
+  <style>
+   
+
+  </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <input type="file" id="imageInput" accept="image/*,.heic">
+  <img id="overlay" src="overlay.png" alt="helper overlay for image cropping">
+  <div>
+    <img id="image" style="display:none;">
+  </div>
+  <button id="cropBtn" style="display:none;">Crop Image</button>
+  <button id="downloadBtn" style="display:none;">Download Cropped Image</button>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/heic2any@latest/dist/heic2any.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.12/cropper.min.js"></script>
+<script src="cropper.js">
+ 
+</script>
+
+</body>
+</html>
